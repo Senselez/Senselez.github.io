@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Before-After Slider using Beer Slider plugin</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+    <link rel="stylesheet" href="BeerSlider.css">
+  <link rel="stylesheet" href="style.css">  
+  <script src="BeerSlider.js"></script>
+</head>
+<body>  
+  <div class="container">
+    <header>
+      <h1 class="heading-font">Porównanie</h1>
+      <h2>Jakieś miasto</h2>
+    </header>
+    <div id="compare" class="beer-slider" data-beer-label="before">
+      <img src="images/img1.jpg"  alt="before">
+      <div class="beer-reveal" data-beer-label="after">
+        <img src="images/img2.jpg"  alt="after">
+    </div>
+  </div>
+  
+  <!-- Add this to activte the slider -->
+  <script>
+    new BeerSlider( document.getElementById( "compare" ) );    
+  </script>
+
+<div class="container">
+  <header>
+    <h2>pepe the papież</h2>
+  </header>
+  <div id="compare2" class="beer-slider" data-beer-label="before">
+    <img src="images/img3.jpg"  alt="before">
+    <div class="beer-reveal" data-beer-label="after">
+      <img src="images/img4.jpg"  alt="after">
+  </div>
+</div>
+
+<script>
+  new BeerSlider( document.getElementById( "compare2" ) );    
+</script>
+
+</body>
+</html>
