@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GCam vs Stock</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+    <link rel="stylesheet" href="BeerSlider.css">
+  <link rel="stylesheet" href="style.css">  
+  <script src="BeerSlider.js"></script>
+</head>
+<body>  
+  <div class="container">
+    <header>
+      <h1 class="heading-font">Porównanie</h1>
+      <h2>Jakiś kwiat</h2>
+    </header>
+    <div id="compare" class="beer-slider" data-beer-label="before">
+      <img src="images/GCam/img1.jpg"  alt="before">
+      <div class="beer-reveal" data-beer-label="after">
+        <img src="images/GCam/img2.jpg"  alt="after">
+    </div>
+  </div>
+  
+  <!-- Add this to activte the slider -->
+  <script>
+    new BeerSlider( document.getElementById( "compare" ) );    
+  </script>
+
+<div class="container">
+  <header>
+    <h2>Pepsi i Cola</h2>
+  </header>
+  <div id="compare2" class="beer-slider" data-beer-label="before">
+    <img src="images/GCam/img3.jpg"  alt="before">
+    <div class="beer-reveal" data-beer-label="after">
+      <img src="images/GCam/img4.jpg"  alt="after">
+  </div>
+</div>
+
+<script>
+  new BeerSlider( document.getElementById( "compare2" ) );    
+</script>
+
+<div class="container">
+  <header>
+    <h2>Balaboom (Stock vs GCam)</h2>
+  </header>
+  <div id="compare3" class="beer-slider" data-beer-label="before">
+    <img src="images/GCam/img5.jpg"  alt="before">
+    <div class="beer-reveal" data-beer-label="after">
+      <img src="images/GCam/img6.jpg"  alt="after">
+  </div>
+</div>
+
+<script>
+  new BeerSlider( document.getElementById( "compare3" ) );    
+</script>
+
+<div class="container">
+  <header>
+    <h2>Holenderski misiek</h2>
+  </header>
+  <div id="compare4" class="beer-slider" data-beer-label="before">
+    <img src="images/GCam/img7.jpg"  alt="before">
+    <div class="beer-reveal" data-beer-label="after">
+      <img src="images/GCam/img8.jpg"  alt="after">
+  </div>
+</div>
+
+<script>
+  new BeerSlider( document.getElementById( "compare4" ) );    
+</script>
+</body>
+</html>
